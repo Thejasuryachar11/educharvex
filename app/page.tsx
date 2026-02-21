@@ -16,7 +16,7 @@ export default function HomePage() {
         <section className="relative bg-primary text-primary-foreground py-20 lg:py-32 overflow-hidden">
           <div className="container mx-auto px-4 lg:px-8">
             <div className="max-w-3xl animate-fade-in will-animate">
-              <Badge className="mb-4 bg-secondary text-secondary-foreground">Admissions Open for 2025-26</Badge>
+              <Badge className="mb-4 bg-secondary text-secondary-foreground">Admissions Open for 2026-27</Badge>
               <h1 className="text-4xl lg:text-6xl font-bold mb-6 text-balance">
                 Empowering Young Minds for a Brighter Future
               </h1>
