@@ -72,9 +72,16 @@ export function Footer() {
                 </a>
               </li>
               <li className="flex items-start gap-2">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
-                <span className="text-background/80">Banashree, Bangalore</span>
-              </li>
+  <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+  <a
+    href="https://www.google.com/maps/place/EduCharvex+Banashree+Tutorials/@13.0359001,73.0665509,953305m/data=!3m1!1e3!4m10!1m2!2m1!1sBanashree+Tutorial!3m6!1s0x3bae3d00df8718a5:0xf14208f76f7737d8!8m2!3d13.0359001!4d77.5489728!15sChJCYW5hc2hyZWUgVHV0b3JpYWxaFCISYmFuYXNocmVlIHR1dG9yaWFskgENcHJpdmF0ZV90dXRvcpoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyNXZkMk5WY0V4UFdHTTFUa2hhUjJKNldqSldWM1F6VVRCU1ZtTXlZeEFC4AEA-gEECHMQQQ!16s%2Fg%2F11n3pzgbg_?entry=ttu"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-background/80 hover:underline"
+  >
+    Banashree Tutorials, Bangalore
+  </a>
+</li>
             </ul>
           </div>
 

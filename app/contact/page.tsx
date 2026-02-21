@@ -127,16 +127,16 @@ export default function ContactPage() {
           <div className="container mx-auto px-4 lg:px-8">
             <h2 className="text-3xl font-bold mb-8 text-center">Find Us Here</h2>
             <div className="rounded-lg overflow-hidden shadow-lg">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243.28066787088842!2d77.5479015!3d13.0363168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d430589fb69%3A0x6804a0219e8ed728!2s87%2C%2015th%20A%20Cross%20Rd%2C%20Muthyala%20Nagar%2C%20BNS%20Layout%2C%20Mathikere%2C%20Bengaluru%2C%20Karnataka%20560054!5e0!3m2!1sen!2sin!4v1234567890"
-                width="100%"
-                height="450"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Banashree Tutorials Location"
-              ></iframe>
+             <iframe
+  src="https://www.google.com/maps?q=EduCharvex%20Banashree%20Tutorials,%2015th%20A%20Cross,%20Near%20JP%20Park%20Back%20Gate,%20BNS%20Layout,%20Mathikere,%20Yeswanthpur,%20Bengaluru,%20Karnataka%20560054&output=embed"
+  width="100%"
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  title="EduCharvex Banashree Tutorials Location"
+></iframe>
             </div>
           </div>
         </section>
