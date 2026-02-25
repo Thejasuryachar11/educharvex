@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/FloatingButtons"
+import FloatingButtons from "@/components/FloatingButtons"
 import { Card, CardContent } from "@/components/ui/card"
 import { Quote } from "lucide-react"
 
@@ -136,7 +136,7 @@ export default function TestimonialsPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
+      <FloatingButtons />
     </>
   )
 }

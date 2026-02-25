@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/FloatingButtons"
+import FloatingButtons from "@/components/FloatingButtons"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
@@ -144,7 +144,7 @@ export default function ContactPage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
+      <FloatingButtons />
       <Toaster />
     </>
   )
