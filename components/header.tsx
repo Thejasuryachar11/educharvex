@@ -4,6 +4,8 @@ import { useState } from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Phone } from "lucide-react"
+import Image from "next/image";
+
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -22,10 +24,26 @@ export function Header() {
     <header className="sticky top-0 z-50 w-full border-b border-border bg-card/95 backdrop-blur supports-[backdrop-filter]:bg-card/80">
       <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex flex-col">
-            <span className="text-xl font-bold text-primary leading-tight">BANASHREE TUTORIALS</span>
-            <span className="text-xs text-muted-foreground uppercase tracking-wide">Empowering Young Minds</span>
-          </div>
+          
+
+<div className="flex items-center gap-3">
+  <Image
+    src="/logo.png"
+    alt="Banashree Tutorials Logo"
+    width={60}
+    height={60}
+    priority
+  />
+
+  <div className="flex flex-col">
+    <span className="text-xl font-bold text-primary leading-tight">
+      BANASHREE TUTORIALS
+    </span>
+    <span className="text-xs text-muted-foreground uppercase tracking-wide">
+      Empowering Young Minds
+    </span>
+  </div>
+</div>
         </Link>
 
         {/* Desktop Navigation */}

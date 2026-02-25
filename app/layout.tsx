@@ -18,25 +18,13 @@ export const metadata: Metadata = {
     "Premier coaching center in Bangalore offering CBSE, ICSE & State Board tuition for Classes 6-10 and PUC (PCMB). Expert faculty with 5+ years experience. Students scoring 98%+. Online & Offline classes available.",
   keywords:
     "tuition center, coaching classes, CBSE tuition, ICSE tuition, State Board, Class 6-10, PUC coaching, PCMB, Bangalore tutorials",
-  generator: "v0.app",
+  generator: "Surya",
+
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/logo.png",   // Browser tab icon
+    apple: "/logo.png",  // Apple devices
   },
-}
+};
 
 export default function RootLayout({
   children,

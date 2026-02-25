@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import FloatingButtons from "@/components/FloatingButtons"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -295,7 +295,7 @@ export default function HomePage() {
         </section>
       </main>
       <Footer />
-      <WhatsAppButton />
+      <FloatingButtons />
     </>
   )
 }

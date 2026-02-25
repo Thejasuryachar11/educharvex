@@ -1,6 +1,6 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { WhatsAppButton } from "@/components/whatsapp-button"
+import { WhatsAppButton } from "@/components/FloatingButtons"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { Card, CardContent } from "@/components/ui/card"
 import { Phone, Mail, MapPin, Clock } from "lucide-react"
@@ -82,13 +82,15 @@ export default function ContactPage() {
                         </div>
                         <div>
                           <h3 className="font-semibold mb-1">Address</h3>
-                          <p className="text-muted-foreground">
-                            87, 15th A Cross Rd, Muthyala Nagar
-                            <br />
-                            BNS Layout, Mathikere
-                            <br />
-                            Bengaluru, Karnataka 560054
-                          </p>
+                          <p className="text-muted-foreground leading-relaxed">
+  #01, 15th A Cross
+  <br />
+  Near JP Park Back Gate
+  <br />
+  BNS Layout, Mathikere, Yeswanthpur
+  <br />
+  Bengaluru, Karnataka 560054, India
+</p>
                         </div>
                       </div>
                     </CardContent>

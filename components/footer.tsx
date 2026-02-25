@@ -8,7 +8,16 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-lg font-bold mb-4">BANASHREE TUTORIALS</h3>
+            <div className="flex items-center gap-3 mb-4">
+  <img 
+    src="/logo.png" 
+    alt="Banashree Tutorials Logo" 
+    className="w-10 h-10 object-contain"
+  />
+  <h3 className="text-lg font-bold">
+    BANASHREE TUTORIALS
+  </h3>
+</div>
             <p className="text-sm text-background/80 leading-relaxed mb-4">
               Empowering young minds since 2021. We provide quality education for Classes 6-10 and PUC with experienced
               faculty and proven results.
@@ -87,19 +96,38 @@ export function Footer() {
 
           {/* Social Media */}
           <div>
-            <h4 className="text-base font-semibold mb-4">Follow Us</h4>
-            <div className="flex gap-3">
-              <a href="#" className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors">
-                <Facebook className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors">
-                <Instagram className="h-5 w-5" />
-              </a>
-              <a href="#" className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors">
-                <Youtube className="h-5 w-5" />
-              </a>
-            </div>
-          </div>
+  <h4 className="text-base font-semibold mb-4">Follow Us</h4>
+  <div className="flex gap-3">
+
+    <a
+      href="https://www.facebook.com/share/1FbyXrYRbH/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors"
+    >
+      <Facebook className="h-5 w-5" />
+    </a>
+
+    <a
+      href="https://www.instagram.com/banashreetutorials?igsh=YnVlMzc2c3Bucnh2"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors"
+    >
+      <Instagram className="h-5 w-5" />
+    </a>
+
+    <a
+      href="https://youtube.com/@banashreetutorials-v1e?si=a6ttG1x2u6GZHHFz"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-background/10 hover:bg-background/20 p-2 rounded-lg transition-colors"
+    >
+      <Youtube className="h-5 w-5" />
+    </a>
+
+  </div>
+</div>
         </div>
 
         <div className="border-t border-background/20 mt-8 pt-6 text-center text-sm text-background/70">
