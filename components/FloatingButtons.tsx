@@ -3,7 +3,7 @@
 import { MessageCircle, MapPin, Instagram, Phone } from "lucide-react"
 
 export default function FloatingButtons() {
-  const phoneNumber = "918548906373"
+  const phoneNumber = "918618336739"
 
   const message = encodeURIComponent(
     "Hi, I would like to know more about the courses at Banashree Tutorials."
